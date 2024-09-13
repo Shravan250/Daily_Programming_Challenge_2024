@@ -3,7 +3,8 @@
 using namespace std;
 
 
-//time O(n) and space O(1)
+//time O(n)
+//space O(n)
 vector<int> findLeaders(vector<int>& nums){
     vector<int> ans {nums[nums.size()-1]};
     int max_from_right = nums[nums.size()-1];
